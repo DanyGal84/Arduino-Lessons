@@ -5,7 +5,6 @@ int tiempo_apagado = 500;
 
 void setup() {
   // put your setup code here, to run once:
-
   pinMode(green_led,OUTPUT); // Función que sirve para determinar el número de pin si se va a utilizar de entrada o salida
   pinMode(onboard_led,OUTPUT); // El pin 13 ya tiene un led la placa arduino
 }
